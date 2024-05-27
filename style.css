@@ -5,5 +5,65 @@
 }
 
 body {
-    font-family: "Lato", sans-serif;
+    font-family: "Montserrat", sans-serif;
+    position: relative;
+}
+
+nav {
+    height: 60px;
+    padding: 15px 50px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: sticky;
+    top: 0;
+}
+
+#nav-title {
+    cursor: pointer;
+}
+
+#nav-title a {
+    text-decoration: none;
+    color: #1e1a4b;
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+#nav-title a i {
+    color: #27AE60;
+    font-size: 1.5rem;
+}
+
+#toggle {
+    display: none;
+}
+
+#bars {
+    font-size: 1.5rem;
+    display: none;
+}
+
+#nav-link {
+    display: flex;
+    gap: 1em;
+}
+
+#nav-link li {
+    list-style-type: none;
+}
+
+#nav-link li a {
+    text-decoration: none;
+    color: #666;
+    font-weight: 500;
+}
+
+#nav-social i {
+    font-size: 1.2rem;
+    background-color: #F7F7F7;
+    padding: 7px 10px;
+    border-radius: 5px;
 }
