@@ -123,6 +123,11 @@ nav {
     padding: 7px 15px;
     border-radius: 5px;
     font-size: 1.1rem;
+    transition: .8s;
+}
+
+#welcome-text button:hover {
+    background-color: #130F40;
 }
 
 #welcome-img {
@@ -132,5 +137,3 @@ nav {
 #welcome-img img {
     width: 100%;
 }
-
-
