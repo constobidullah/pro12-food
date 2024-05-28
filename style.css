@@ -199,7 +199,7 @@ nav {
     background-color: #130F40;
 }
 
-#choice-container{
+#choice-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -212,6 +212,22 @@ nav {
     padding: 1em;
 }
 
-.choice-item p{
+.choice-item p {
     font-weight: 600;
+}
+
+
+/* Menu */
+#menu-title {
+    text-align: center;
+}
+
+#menu-title h3 {
+    color: #27AE60;
+    margin: 0 0 10px 0;
+}
+
+#menu-title h2 {
+    font-size: 1.9rem;
+    margin: 0 0 40px 0;
 }
