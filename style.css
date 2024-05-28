@@ -197,4 +197,9 @@ nav {
 .choice-item {
     text-align: center;
     box-shadow: 0 0 10px 0 rgb(236, 236, 236);
+    padding: 1em;
+}
+
+.choice-item p{
+    font-weight: 600;
 }
