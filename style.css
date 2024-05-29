@@ -270,40 +270,36 @@ nav {
 #special {
     padding: 5%;
     position: relative;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
 }
 
 .special-item {
+    width: 320px;
     text-align: center;
     background-color: #F7F7F7;
-    padding: 5%;
+    padding: 2%;
     border-radius: 1em;
 }
 
 .favourite {
-
-    box-shadow: 5px 5px 10px 1px rgb(226, 226, 226);
-
-    display: flex;
-    align-items: center;
-    /* flex-direction: column; */
-    gap: 1em;
-    background-color: #27AE60;
-    color: #fff;
-    font-size: 1.1rem;
-    padding: .5em;
-    border-radius: .5em;
-
-    position: absolute;
-    top: 15%;
-    right: 5%;
+    text-align: right;
 }
 
-.special-item img {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-    margin: 0 0 20px 0;
+.favourite i{
+    cursor: pointer;
+    font-size: 1.9rem;
+    color: gray;
+    transition: .5s;
 }
+
+.favourite i:hover{
+    color: #27AE60;
+}
+
 
 .special-item h3 {
     font-size: 1.2rem;
@@ -340,4 +336,11 @@ nav {
     padding: .5em 1.1em;
     border-radius: .3em;
     font-size: 1.1rem;
+    transition: .5s;
+}
+
+.special-item button:hover{
+    border: 1px solid #27AE60;
+    background-color: transparent;
+    color: #27AE60;
 }
