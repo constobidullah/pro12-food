@@ -279,7 +279,7 @@ nav {
     border-radius: 1em;
 }
 
-.favourite{
+.favourite {
 
     box-shadow: 5px 5px 10px 1px rgb(226, 226, 226);
 
@@ -296,4 +296,39 @@ nav {
     position: absolute;
     top: 15%;
     right: 5%;
+}
+
+.special-item img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    margin: 0 0 20px 0;
+}
+
+.special-item h3 {
+    font-size: 1.2rem;
+    margin: 0 0 10px 0;
+}
+
+.special-review {
+    margin: 0 0 10px 0;
+}
+
+.special-review i {
+    color: #FFD700;
+}
+
+.special-review span {
+    color: gray;
+    opacity: .5;
+}
+
+.special-item p{
+    margin: 0 0 20px 0;
+    color: rgb(92, 90, 90);
+    font-weight: 600;
+}
+
+.special-item p del{
+    font-size: .7rem;
 }
