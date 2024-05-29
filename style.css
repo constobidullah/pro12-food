@@ -332,3 +332,12 @@ nav {
 .special-item p del{
     font-size: .7rem;
 }
+
+.special-item button{
+    border: 1px solid transparent;
+    background-color: #27AE60;
+    color: #fff;
+    padding: .5em 1.1em;
+    border-radius: .3em;
+    font-size: 1.1rem;
+}
