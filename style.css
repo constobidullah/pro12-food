@@ -360,6 +360,20 @@ nav {
 .blog-item {
     background-color: #F7F7F7;
     width: 350px;
+    position: relative;
+}
+
+.date{
+border-radius: 5px;
+    padding: 0 10px;
+
+    display: flex;
+    align-items: center;
+    gap: .2em;
+    background-color: #fff;
+    position: absolute;
+    top: 2%;
+    left: 2%;
 }
 
 .blog-item img {
