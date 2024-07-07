@@ -378,14 +378,14 @@ nav {
     top: -100%;
     left: 24%;
     right: 24%;
-    transition: .5s;
+    transition: .2s;
 }
 
 .date i {
     color: #27AE60;
 }
 
-.date p{
+.date p {
     font-size: .8rem;
     font-weight: 700;
 }
@@ -395,6 +395,7 @@ nav {
 }
 
 .blog-item img {
+    object-fit: cover;
     width: 100%;
     border-radius: 1em 1em 0 0;
 }
