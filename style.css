@@ -442,6 +442,27 @@ nav {
     background-color: #130F40;
 }
 
+/* home delivery */
+#delivery-contact {
+    padding: 0 5%;
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    margin: 0 0 100px 0;
+}
+
+.delivery-contact-item {
+    padding: 15px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #F7F7F7;
+    text-align: center;
+}
+
+.delivery-contact-item p{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
 
 
 /* Scroll bar design */
