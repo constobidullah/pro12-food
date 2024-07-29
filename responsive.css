@@ -448,6 +448,12 @@
         background-color: #130F40;
     }
 
+    /* home delivery */
+    #delivery-contact {
+        padding: 0 10px;
+        flex-direction: column;
+    }
+
     /* Scroll bar design */
     ::-webkit-scrollbar {
         width: 10px;
