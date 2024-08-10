@@ -473,13 +473,19 @@ nav {
 /* Contact form */
 
 #contact-form-parent {
+
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
     background-color: #F7F7F7;
     border-radius: 10px;
     margin: 0 5%;
     padding: 10% 3% 2%;
 }
 
-.contact-form-child1 {
+.contact-form-child1, .contact-form-child2 {
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 20px;
