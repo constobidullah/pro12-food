@@ -471,11 +471,42 @@ nav {
 
 
 /* Contact form */
-#contact-form-parent{
+
+#contact-form-parent {
     background-color: #F7F7F7;
     border-radius: 10px;
     margin: 0 5%;
-    padding: 10% 5% 2%;
+    padding: 10% 3% 2%;
+}
+
+.contact-form-child1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-item {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.contact-item label {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #413f3f;
+}
+
+.contact-item input, textarea {
+    outline: 0;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.contact-item input::placeholder {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
 }
 
 
