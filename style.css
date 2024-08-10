@@ -497,7 +497,8 @@ nav {
     color: #413f3f;
 }
 
-.contact-item input, textarea {
+.contact-item input,
+textarea {
     outline: 0;
     border: 0;
     border-radius: 5px;
@@ -509,6 +510,21 @@ nav {
     font-weight: 400;
 }
 
+#order-btn {
+    border: 0;
+    border-radius: 5px;
+    background-color: #27AE60;
+    color: #fff;
+    padding: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    transition: .4s;
+}
+
+#order-btn:hover {
+    background-color: #130F40;
+    cursor: pointer;
+}
 
 /* Scroll bar design */
 ::-webkit-scrollbar {
