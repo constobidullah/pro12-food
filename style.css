@@ -531,7 +531,9 @@ textarea {
     background-color: #130F40;
     cursor: pointer;
 }
-
+.contact-item iframe{
+    border-radius: 10px;
+}
 /* Scroll bar design */
 ::-webkit-scrollbar {
     width: 10px;
