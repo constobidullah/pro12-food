@@ -59,7 +59,7 @@
         height: 100vh;
         position: absolute;
         top: 60px;
-        left: -100%;
+        left: -200%;
         display: flex;
         gap: 1em;
     }
@@ -452,6 +452,19 @@
     #delivery-contact {
         padding: 0 10px;
         flex-direction: column;
+    }
+
+    /* Contact form */
+    #contact-form-parent {
+        flex-direction: column-reverse;
+        padding: 10px;
+    }
+
+    /* Footer */
+    footer {
+        padding: 0 10px;
+        text-align: left;
+        margin: 0 0 20px 0;
     }
 
     /* Scroll bar design */
